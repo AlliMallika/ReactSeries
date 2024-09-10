@@ -7,6 +7,7 @@ const App = ()=>{
     place:'Kailash',
   }
   return(
+    // React Fragment added
     <>
     <div>
       <h1>Hi! This is {name}, {role}</h1>
