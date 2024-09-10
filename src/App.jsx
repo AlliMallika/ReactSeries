@@ -1,5 +1,6 @@
 import React from "react";
-import Person from "./Person";
+import Person from "./components/Person";
+import { Admin } from "./components/Admin";
 
 const App = ()=>{
  
@@ -7,7 +8,9 @@ const App = ()=>{
     // React Fragment added
     <>
      <Person/>
-     {/* <h1>Hello world</h1> */}
+     {/* //resuable components */}
+     <Admin/>  
+     <Admin/>
     </>
   )
 }
