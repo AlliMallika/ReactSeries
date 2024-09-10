@@ -2,3 +2,9 @@ body{
   background-color: black;
   color: white;
 }
+.div{
+  display: 'flex'; 
+  justifyContent: 'space-between'; 
+  padding: '5px';
+  margin: '2px'
+}

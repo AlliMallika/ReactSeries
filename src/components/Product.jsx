@@ -16,10 +16,12 @@ import React from 'react'
 export const Product =({title, brand, price, RAM})=>{
     return(
         <>
-        <h1>Mobile Name:{title}</h1>
+        <div >
+        <h3>Mobile Name:{title}</h3>
         <p>Mobile Brand:{brand}</p>
         <p>Mobile Price:{price}</p>
         <p>Mobile RAM:{RAM}</p>
+        </div>
         </>
     )
 }
