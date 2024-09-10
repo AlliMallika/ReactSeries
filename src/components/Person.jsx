@@ -13,7 +13,7 @@ return(
     <>
     <div>
       <h1>Hi! This is {name}, {role}</h1>
-      <p>This is React Lecture.</p>
+      <p>Now I am learning ReactJS.</p>
     </div>
     <div>
       <h1>My mail Id is {Person.email}</h1>
