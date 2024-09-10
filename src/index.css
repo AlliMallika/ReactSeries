@@ -2,3 +2,8 @@ body{
   background-color: black;
   color: white;
 }
+.div{
+  display: 'flex'; 
+  padding: '5px';
+  margin: '2px'
+}
