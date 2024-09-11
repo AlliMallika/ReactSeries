@@ -4,6 +4,7 @@ import { Admin } from "./components/Admin";
 import { Product } from "./components/Product";
 import { Events } from "./components/Events";
 import { Counter } from "./components/Counter";
+import { ShowProduct } from "./components/ShowProduct";
 
 const App = () => {
   // Internal styling for the button container
@@ -44,7 +45,7 @@ const App = () => {
       {/* <Person/> */}
       {/* <Admin/>  
       <Admin/> */}
-      <h1><b><center><u>Different Types of Mobile Products</u></center></b></h1>
+      {/* <h1><b><center><u>Different Types of Mobile Products</u></center></b></h1>
       <div style={{ 
           display: 'flex', 
           justifyContent: 'space-between', 
@@ -64,7 +65,10 @@ const App = () => {
       <div style={{textAlign:'center'}}>
         <Events />
       </div>
-      <div><Counter/></div>
+      <div><Counter/></div> */}
+      <div>
+        <ShowProduct/>
+      </div>
     </>
   );
 }
