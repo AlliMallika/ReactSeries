@@ -5,6 +5,7 @@ import { Product } from "./components/Product";
 import { Events } from "./components/Events";
 import { Counter } from "./components/Counter";
 import { ShowProduct } from "./components/ShowProduct";
+import { Form } from "./components/Form";
 
 const App = () => {
   // Internal styling for the button container
@@ -67,7 +68,9 @@ const App = () => {
       </div>
       <div><Counter/></div> */}
       <div>
-        <ShowProduct/>
+        {/* <ShowProduct/> */}
+
+        <Form/>
       </div>
     </>
   );
