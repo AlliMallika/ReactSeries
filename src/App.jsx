@@ -6,6 +6,7 @@ import { Events } from "./components/Events";
 import { Counter } from "./components/Counter";
 import { ShowProduct } from "./components/ShowProduct";
 import { Form } from "./components/Form";
+import { Multiple_Input_Handling } from "./components/Multiple_Input_Handling";
 
 const App = () => {
   // Internal styling for the button container
@@ -70,7 +71,10 @@ const App = () => {
       <div>
         {/* <ShowProduct/> */}
 
-        <Form/>
+        {/* <Form/> */}
+
+        <Multiple_Input_Handling/>
+
       </div>
     </>
   );
